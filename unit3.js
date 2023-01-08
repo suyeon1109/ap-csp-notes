@@ -1,3 +1,11 @@
+// API
+/* = application programming interface
+= a set of functions and procedures allowing the creation of applications that access 
+the features or data of an operating system, application, or other service.
+*/
+
+
+
 // basic user input
 var name = readLine("What is your name? ");
 var age = readInt("What is your age? ");
@@ -191,4 +199,14 @@ ans: The program does not work as intended but rather it displays the number squ
 Since the DISPLAY command is outside of the loop, only the last result of sum is displayed.
 (number != i, number doesnt change)
 */
+
+
+
+
+// Karel
+/*avenue: width
+street: height*/
+
+
+
 
