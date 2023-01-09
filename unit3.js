@@ -4,6 +4,13 @@
 the features or data of an operating system, application, or other service.
 */
 
+/*
+built in Karel functions like move() and turnLeft() are an API.
+because we can make Karel perform certain actions and then Karel responds to our commands.
+*/
+
+
+
 
 
 // basic user input
@@ -156,13 +163,13 @@ ans: 7 = 6 OR 8 ≥ 4
      true
 */
 
-/*
+/* important
 (a OR b) AND NOT (c OR d)
  = (a OR b) AND (NOT c) AND (NOT d) 
 != (a OR b) AND ((NOT c) OR (NOT d)) <<<< important
 */
 
-/*
+/* important
 NOT (rainy OR tooCold) = ( NOT rainy) AND (NOT tooCold)
                       != ( NOT rainy) OR (NOT tooCold)
 */
@@ -197,7 +204,7 @@ Which of the following best describes the behavior of this program?"
 
 ans: The program does not work as intended but rather it displays the number squared.
 Since the DISPLAY command is outside of the loop, only the last result of sum is displayed.
-(number != i, number doesnt change)
+(number != i, number doesnt change)  <<<<< important
 */
 
 
@@ -210,3 +217,28 @@ street: height*/
 
 
 
+
+// array
+// Add to an array
+arr.push(elem);
+
+// Remove last element from array
+var last = arr.pop();
+
+// Finding the index of an element in a list
+var index = arr.indexOf(5);
+
+// Remove an element from a list at index i
+arr.remove(i)
+
+/*
+"aList ← ["dog", false, "bird"] 
+Which of the following will throw an error?
+I. aList[0]
+II. aList[2]
+III. aList[3]
+IV. aList[4]"
+
+ans: I and IV
+in ap style, index starts from 1 <<<<< important
+ */
